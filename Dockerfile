@@ -1,3 +1,3 @@
-FROM aymene69/xrdb:latest
-ENV PORT=3000
-EXPOSE 3000
+FROM ghcr.io/ibbylabs/xrdb:latest
+ENV XRDB_ADDR=0.0.0.0:8787
+EXPOSE 8787
